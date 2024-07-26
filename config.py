@@ -14,7 +14,7 @@ API_HASH = "42396a6ff14a569b9d59931643897d0d"
 BOT_TOKEN = "6618122929:AAFjS04ZF8tPGiKOFSoMOxMIr-jexadR0hU"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = "mongodb+srv://Public74:Public74@public74.ulukh3x.mongodb.net/?retryWrites=true&w=majority&appName=Public74"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOG_GROUP_ID = -1001907436368
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = 6203163206
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
